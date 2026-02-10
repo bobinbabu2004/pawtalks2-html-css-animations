@@ -1,0 +1,221 @@
+  body{
+    background:linear-gradient( to left,coral,white);
+ } 
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Noto Serif", serif;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+  
+    
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    
+}
+
+header a{ text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;}
+
+  header a:hover{
+    color: red;
+    text-decoration: underline;
+  }
+
+  section{
+  margin-left: 50px;
+
+}
+#home{
+    margin-top:150px;
+}
+#home h1{
+     font-family: "Gravitas One", serif;
+     font-size: 60px;
+    }
+ #home p{
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: large;
+
+ }   
+#homcontent > p{
+margin: 30px 0px;
+}
+
+
+#homcontent > a {
+    background-color:coral;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 700px;
+}
+
+
+
+#homcontent{
+    width: 40%;
+
+}
+#home-image{
+    position:absolute;
+    height: 75vh;
+    right:0;
+    top: 100px;   }
+
+
+    #home-images > img {
+    position: absolute;
+    height: 80%;
+    left: 660px;
+    top: 100px;
+     transition: top 3s, left 3s ;
+    
+    }
+
+#dog{
+    margin-bottom: 200px;
+}
+
+    #dog{
+        z-index: 1;
+    }
+
+    #home-images:hover #dog{
+    top: 70px;
+    bottom: 0;
+}
+
+#features {
+    padding: 80px 10% ;
+    background: #fdfdfd;
+    text-align: center;
+    margin: 100px;
+}
+
+ #features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #2c3e50;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.feature-card {
+    flex: 1;
+    width: 10px;
+    padding: 40px 25px;
+    background: rgb(244, 241, 241);
+    border-radius: 12px;
+}
+.feature-card i {
+    font-size: 2.5rem;
+     color: #ff6b6b;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.feature-card h3 {
+    margin: 15px 0;
+    color: #2c3e50;
+}
+
+.feature-card p {
+    font-size: 0.95rem;
+    color: #666;
+}
+
+
+#reviews {
+    padding: 60px 20px;
+    background-color: #fefdfd; 
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin: 40px;
+}
+
+#reviews h2 {
+    font-size: 2rem;
+    color: #1a1a1a;
+    margin-bottom: 40px;
+    
+}
+
+.review-container {
+    display: flex;
+    justify-content:space-evenly;
+    
+    gap: 40px;
+
+}
+
+
+
+.rev {
+    background: #e8e1e1; 
+    border: 2px solid #989090; 
+    border-radius: 20px; 
+    padding: 30px;
+    width: 100%;
+    text-align: left;
+    
+}
+
+
+.rev p {
+    font-size: 0.95rem;
+    color: #815050;
+    margin: 0;
+ font-family: "Roboto", sans-serif;
+}
+
+.rev {
+    color: #cf1212;
+    font-size: 0.8rem;
+    
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color:white; 
+    text-align: center;
+    gap: 15px;
+}
+
+.socialmedia a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #333;
+    
+}
+
+.socialmedia a:hover {
+    color: #ff6b6b; 
+}
+
+#para{
+      font-family: "Merriweather", serif;
+      font-size: 50;
+}
